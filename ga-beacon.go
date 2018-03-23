@@ -99,7 +99,7 @@ func handler(w http.ResponseWriter, r *http.Request) {
 
 	// / -> redirect
 	if len(params[0]) == 0 {
-		http.Redirect(w, r, "https://github.com/igrigorik/ga-beacon", http.StatusFound)
+		http.Redirect(w, r, "https://www.google.co.uk/", http.StatusFound)
 		return
 	}
 
